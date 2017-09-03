@@ -5,6 +5,10 @@
     "type": "git",
     "url": "git+https://github.com/oney/react-native-webrtc.git"
   },
+  "scripts": {
+    "start": "node index.android.js",
+    "test": "jest" 
+  },
   "nativePackage": true,
   "description": "WebRTC for React Native",
   "author": {
