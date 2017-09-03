@@ -1,4 +1,4 @@
-
+'use strict';
 var WebRTC = require('react-native-webrtc');
 var {
   RTCPeerConnection,
