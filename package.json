@@ -27,7 +27,8 @@
     "base64-js": "^1.1.2",
     "event-target-shim": "^1.0.5",
     "jest": "^20.0.4",
-    "jest-cli": "^20.0.4"
+    "jest-cli": "^20.0.4",
+    "import-export":"1.0.1"
   },
   "peerDependencies": {
     "react-native": ">=0.40.0"
