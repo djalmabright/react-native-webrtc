@@ -1,5 +1,5 @@
 'use strict';
-
+require('import-export');
 import RTCPeerConnection from './RTCPeerConnection';
 import RTCIceCandidate from './RTCIceCandidate';
 import RTCSessionDescription from './RTCSessionDescription';
