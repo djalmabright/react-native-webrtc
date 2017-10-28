@@ -7,8 +7,8 @@
   },
   "scripts": {
     "build": "babel server --out-dir build --presets=es2015 && webpack",
-    "start": "node index.js",
-    "test": "jest" 
+    "start": "babel-node index.js --presets es2015,stage-2",
+   "test": "jest" 
   },
   "nativePackage": true,
   "description": "WebRTC for React Native",
