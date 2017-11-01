@@ -6,8 +6,7 @@
     "url": "git+https://github.com/oney/react-native-webrtc.git"
   },
   "scripts": {
-    "build": "babel server --out-dir build --presets=es2015 && webpack",
-    "start": "babel-node index.js --presets es2015,stage-2",
+   "start": "babel-node index.js --presets es2015,stage-2",
    "test": "jest" 
   },
   "nativePackage": true,
