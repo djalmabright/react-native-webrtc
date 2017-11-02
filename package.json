@@ -6,7 +6,7 @@
     "url": "git+https://github.com/oney/react-native-webrtc.git"
   },
   "scripts": {
-   "start": "node_modules/.bin/babel-node  main.es6",
+   "start": "babel-node --presets es2015 --index.js",
     "babel-version": "babel --version",
     "test": "jest"
      },
